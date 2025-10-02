@@ -10,7 +10,7 @@ app.use(cors())
 
 const io=new Server(server,{
     cors: {
-    origin: "http://localhost:5173", // your React dev server
+    origin: ["http://localhost:5173","chat-app-yfjm-mxvejl4ur-sumit-kushwahas-projects-aaeebd17.vercel.app"] ,// your React dev server
     methods: ["GET", "POST"]
   }
 })
